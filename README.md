@@ -55,5 +55,4 @@ Implementação de uma estrutura que se auto-balanceia de forma dinâmica com ba
 **Rotações Automáticas**: Aplicação de rotações simples (direta/esquerda) ou duplas nas operações de escrita sempre que a estrutura fica desbalanceada (ex: quando um braço fica pesado com $FB = -2$).
 
 
-* 
 **Eficiência Garantida**: As funções de inserção e remoção atualizam a altura de cada nó visitado durante o desempilhamento da recursão. Caso detectem desbalanceamento, executam a rotação apropriada. Isso assegura que a complexidade matemática de busca permaneça otimizada em $O(\log n)$.
